@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Palanquin Dark", sans-serif;
+    color: white;
 }
 html, 
 body{
@@ -14,6 +15,13 @@ body{
     background-color: black;
 }
 
+
+#box{
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+}
+
 #box1{
     width: 200px;
     height: 200px;
@@ -22,5 +30,25 @@ body{
 #box2{
     width: 200px;
     height: 200px;
-    background-color: seagreen;
+    background-color: lightseagreen;
+}
+
+#box3{
+    width: 200px;
+    height: 200px;
+    background-color: royalblue;
+}
+
+#nav{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+#part2{
+    display: flex;
+    align-items: center;
+    gap: 50px;
 }
