@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Palanquin Dark", sans-serif;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#page1 {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#page2 {
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+}
+
+#page3 {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#page2 h1{
+    font-size: 30vw;
+    font-weight: 400;
+    text-transform: uppercase;
+}
