@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Gang of Three';
+    src: url('subset-GangofThree.woff2') format('woff2'),
+        url('subset-GangofThree.woff') format('woff'),
+        url('subset-GangofThree.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

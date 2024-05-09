@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gang of Three";
+    font-weight: 900;
+    font-style: normal;
+    color: white;
+}
+
+@font-face {
+    font-family: "Gang of Three";
+    src: url(fonts/subset-GangofThree.ttf) format("truetype"),
+      url(fonts/subset-GangofThree.woff) format("woff"),
+      url(fonts/subset-GangofThree.woff2) format("woff2");
+  }
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+h1 span {
+    display: inline-block;
+}
