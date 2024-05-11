@@ -26,17 +26,25 @@ body {
 #page1, #page2, #page3 {
     height: 100vh;
     width: 100%;
+    padding: 5vw 0;
 }
 
 #move {
     background-color: #D9FF06;
     color: black;
+    display: flex;
+    padding: 3vw 0;
+    overflow: hidden;
 }
 
 .marque {
+    flex-shrink: 0;
     display: flex;
     align-items: center;
     gap: 3vw;
+    padding-right: 30px;
+    /* Making it default as set to -100% */
+    transform: translateX(-100%);
 }
 
 .marque h1 {
