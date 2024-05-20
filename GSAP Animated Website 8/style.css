@@ -111,3 +111,14 @@ nav button {
     right: 0;
     position: absolute;
 }
+
+.section1bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 70px;
+}
+
+.section1bottom img {
+    height: 60px;
+}
