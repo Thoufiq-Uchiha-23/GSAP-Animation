@@ -1,12 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+
+@font-face {
+    font-family: china;
+    src: url(./3856NeueMachina.woff2);
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Palanquin Dark", sans-serif;
+    /* font-family: "Palanquin Dark", sans-serif; */
+    /* font-family: "Source Code Pro", monospace; */
+    /* font-family: "Space Grotesk", sans-serif; */
+    font-family: "Sora", sans-serif;
 }
 
 html,
 body{
     height: 100%;
     width: 100%;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    /* background-color: beige; */
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+.part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav h1 {
+    font-size: 40px;
+}
+
+nav h1 i {
+    rotate: 45deg;
+    display: inline-block;
+}
+
+nav h4 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+nav button {
+    padding: 15px 30px;
+    font-size: 22px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.center{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    padding: 40px;
+}
+
+.center-part1 {
+    height: 100%;
+    width: 44%;
+}
+
+.center-part1 h1 {
+    line-height: 1.2;
+    font-size: 70px;
+    font-family: china;
+}
+
+.center-part1 p{
+    font-size: 30px;
+    width: 95%;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.center-part1 button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 20px 40px;
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+}
+
+.center-part2 {
+    height: 100%;
+    width: 56%;
+    position: relative;
+}
+
+.center-part2 img {
+    height: 100%;
+    right: 0;
+    position: absolute;
 }
