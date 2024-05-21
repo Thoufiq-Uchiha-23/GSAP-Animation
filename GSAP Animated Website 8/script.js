@@ -53,7 +53,7 @@ function page2Animation() {
       trigger: ".section2",
       scroller: "body",
       start: "top 50%",
-      end: "top -60%",
+      end: "top 0%",
       scrub: 2,
     },
   });
