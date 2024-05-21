@@ -23,6 +23,10 @@ body {
   width: 100%;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 section {
   height: 100%;
   width: 100%;
@@ -216,18 +220,18 @@ nav button {
   background-color: black;
 }
 
-.line1 h2,
-.line2 h2 {
+.black h2,
+.black h2 {
   background-color: #fff;
 }
 
-.line1 h4,
-.line2 h4 {
+.black h4,
+.black h4 {
   color: white;
 }
 
-.line1 h4 i,
-.line2 h4 i {
+.black h4 i,
+.black h4 i {
   color: black;
   background-color: white;
 }
