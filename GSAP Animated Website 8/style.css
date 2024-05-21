@@ -122,3 +122,50 @@ nav button {
 .section1bottom img {
     height: 60px;
 }
+
+.section2 .services {
+    padding: 70px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    margin-top: 120px;
+}
+
+.services h3 {
+    background-color: #B9FF66;
+    font-weight: 500;
+    font-family: china;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-size: 60px;
+
+}
+
+.services p {
+    width: 40%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container {
+    height: 85%;
+    width: 100%;
+    padding: 70px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* gap: 50px; */
+}
+
+.elem {
+    flex-shrink: 0;
+    height: 400px;
+    border: 3px solid black;
+    border-radius: 50px;
+    width: 48%;
+    background-color: red;
+    box-shadow: 0px 15px 0px black;
+}
+
