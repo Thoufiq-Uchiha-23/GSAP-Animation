@@ -122,6 +122,28 @@ nav button {
   }
 }
 
+@media screen and (max-width: 1500px) {
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px;
+  }
+
+  nav h1 {
+    font-size: 25px;
+  }
+
+  nav h4 {
+    font-size: 15px;
+  }
+
+  nav button {
+    font-size: 15px;
+    padding: 20px 10px;
+  }
+}
+
 .center {
   margin-top: 100px;
   width: 100%;
