@@ -24,13 +24,12 @@ body {
 }
 
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 section {
   width: 100%;
   position: relative;
-
 }
 
 nav {
@@ -45,7 +44,6 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 30px 40px;
-
 }
 
 .part2 {
@@ -172,7 +170,6 @@ nav button {
 
 @media screen and (max-width: 600px) {
   .center {
-    
     flex-wrap: wrap;
     height: auto;
   }
@@ -208,24 +205,21 @@ nav button {
 }
 
 @media screen and (max-width: 800px) {
-
- 
-  
   .center-part1 h1 {
     line-height: 1.1;
     font-size: 40px;
   }
-  
+
   .center-part1 p {
     font-size: 10px;
   }
-  
+
   .center-part1 button {
     padding: 20px 20px;
     font-size: 15px;
   }
 }
- 
+
 .section1bottom {
   display: flex;
   justify-content: space-between;
@@ -239,7 +233,7 @@ nav button {
 }
 
 @media screen and (max-width: 600px) {
-  .section1bottom{
+  .section1bottom {
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 20px;
@@ -258,7 +252,7 @@ nav button {
     align-items: center;
     padding: 100px 40px;
   }
-  
+
   .section1bottom img {
     height: 30px;
   }
@@ -288,7 +282,6 @@ nav button {
   font-weight: 500;
 }
 
-
 @media screen and (max-width: 600px) {
   .section2 .services {
     height: auto;
@@ -297,11 +290,11 @@ nav button {
     gap: 20px;
     margin-top: 100px;
   }
-  
+
   .services h3 {
     font-size: 30px;
   }
-  
+
   .services p {
     width: 100%;
     font-size: 15px;
@@ -316,11 +309,11 @@ nav button {
     gap: 20px;
     margin-top: 70px;
   }
-  
+
   .services h3 {
     font-size: 30px;
   }
-  
+
   .services p {
     width: 100%;
     font-size: 15px;
@@ -413,14 +406,14 @@ nav button {
     flex-wrap: wrap;
     gap: 20px;
   }
-  
+
   .elem {
     width: 100%;
     padding: 20px 30px;
     flex-wrap: wrap;
     box-shadow: 0px 10px 0px black;
   }
-  
+
   .elem-part1 {
     width: 100%;
     display: flex;
@@ -429,28 +422,28 @@ nav button {
     flex-direction: column;
     gap: 20px;
   }
-  
+
   .elem-part2 {
     width: 200px;
   }
-  
+
   .elem-part2 img {
     width: 100%;
   }
-  
+
   .elem-part1 h2 {
     font-size: 20px;
     border-radius: 10px;
     width: 10rem;
   }
-  
+
   .elem-part1 h4 {
     display: flex;
     align-items: center;
     font-size: 15px;
     gap: 10px;
   }
-  
+
   .elem-part1 h4 i {
     padding: 10px;
   }
@@ -464,7 +457,7 @@ nav button {
     gap: 20px;
     overflow-x: hidden;
   }
-  
+
   .elem {
     width: 100%;
     padding: 20px 30px;
@@ -472,7 +465,7 @@ nav button {
     justify-content: center;
     box-shadow: 0px 10px 0px black;
   }
-  
+
   .elem-part1 {
     width: 50%;
     display: flex;
@@ -481,28 +474,28 @@ nav button {
     flex-direction: column;
     gap: 20px;
   }
-  
+
   .elem-part2 {
     width: 200px;
   }
-  
+
   .elem-part2 img {
     width: 100%;
   }
-  
+
   .elem-part1 h2 {
     font-size: 20px;
     border-radius: 10px;
     width: 10rem;
   }
-  
+
   .elem-part1 h4 {
     display: flex;
     align-items: center;
     font-size: 15px;
     gap: 10px;
   }
-  
+
   .elem-part1 h4 i {
     padding: 10px;
   }
@@ -517,14 +510,14 @@ nav button {
     overflow: hidden;
     justify-content: center;
   }
-  
+
   .elem {
     width: 450px;
     padding: 20px 30px;
     flex-wrap: wrap;
     box-shadow: 0px 10px 0px black;
   }
-  
+
   .elem-part1 {
     width: 50%;
     display: flex;
@@ -533,28 +526,28 @@ nav button {
     flex-direction: column;
     gap: 20px;
   }
-  
+
   .elem-part2 {
     width: 50%;
   }
-  
+
   .elem-part2 img {
     width: 100%;
   }
-  
+
   .elem-part1 h2 {
     font-size: 20px;
     border-radius: 10px;
     width: 10rem;
   }
-  
+
   .elem-part1 h4 {
     display: flex;
     align-items: center;
     font-size: 15px;
     gap: 10px;
   }
-  
+
   .elem-part1 h4 i {
     padding: 10px;
   }
