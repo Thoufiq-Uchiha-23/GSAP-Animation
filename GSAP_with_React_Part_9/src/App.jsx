@@ -16,17 +16,22 @@ const App = () => {
   }, {scope: container})
   
   return (
-    // using Scope property and useRef and useGSAP hook
-    // <main>
-    //   <div ref={container} className="container">
-    //     <div className="circle"></div>
-    //     <div className="box"></div>
-    //   </div>
-    //   <div className="kuch">
-    //     <div className="circle"></div>
-    //     <div className="box"></div>
-    //   </div>
-    // </main>
+    <main>
+      {/* // using Scope property and useRef and useGSAP hook */}
+      {/* <div ref={container} className="container">
+        <div className="circle"></div>
+        <div className="box"></div>
+      </div>
+      <div className="kuch">
+        <div className="circle"></div>
+        <div className="box"></div>
+      </div> */}
+
+      <button>
+        Animate
+      </button>
+      <div className="circle"></div>
+    </main>
   )
 }
 
