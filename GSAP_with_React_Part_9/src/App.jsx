@@ -1,34 +1,32 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useRef } from 'react'
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap'
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
+  const container = useRef()
 
+  useGSAP(() => {
+    gsap.from(".box", {
+      rotate: 360,
+      scale: 0,
+      duration: 1,
+      opacity: 0,
+      delay: 0.2
+    })
+  }, {scope: container})
+  
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    // using Scope property and useRef and useGSAP hook
+    // <main>
+    //   <div ref={container} className="container">
+    //     <div className="circle"></div>
+    //     <div className="box"></div>
+    //   </div>
+    //   <div className="kuch">
+    //     <div className="circle"></div>
+    //     <div className="box"></div>
+    //   </div>
+    // </main>
   )
 }
 
