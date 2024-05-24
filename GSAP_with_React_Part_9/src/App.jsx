@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
+import ContextSafe from './ContextSafe'
 
 // Used on Circle to animate based on Random values
 // const App = () => {
@@ -71,6 +72,7 @@ const App = () => {
     //   }}>Animate</button>
     //   <div className='box' ref={boxRef}></div>
     // </main>
+    <ContextSafe />
   )
 }
 
