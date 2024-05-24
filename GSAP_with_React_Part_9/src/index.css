@@ -40,13 +40,13 @@ main {
   border: 3px solid white;
 }
 
-/* .box {
+.box {
   margin: 20px;
   height: 300px;
   width: 300px;
   border-radius: 10px;
   background: linear-gradient(to right bottom, rgb(240, 96, 125), crimson);
-} */
+}
 
 .circle {
   margin: 20px;
